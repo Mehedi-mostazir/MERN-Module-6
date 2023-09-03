@@ -1,0 +1,11 @@
+{
+  "name": "mern-module-6",
+  "version": "1.0.0",
+  "description": "This is for assignmnet In Ostad\r <br>\r Author - Md Mehedi Mostazir",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
