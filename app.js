@@ -1,6 +1,13 @@
-const express = require('express');
-const app = express();
+// application Configuration
 
-app.use('/api', require('./src/Routes/api'));
+const express = require('express');
+const app = new express();
+const router = require("./src/Routes/api")
+
+
+// application Router
+app.use('/api',router);
+
+
 
 module.exports = app;
